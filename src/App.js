@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './Components/HelloWorld';
-import CounterExample from './Components/CounterExample';
+import Counter from './Components/Counter';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <div>
-      {/*<HelloWorld name="tests"/>*/}
-      <CounterExample/>
+    <div className='app-text'>
+      <Header/>
+      <Counter/>
     </div>
   );
 }
